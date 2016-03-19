@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Color reference link:
+    http://www.google.com/design/spec/style/color.html#
+    -->
+    <color name="ColorPrimary">#FA5025</color> <!-- #FA5025 -->
+    <color name="ColorPrimaryDark">#DC143C</color> <!-- #E8900C -->
+    <color name="TabsScrollColor">#AAFF00</color>
+    <color name="TabBackgroundColor">#FFB300</color>
+    <color name="MainTextColor">#30B9A8</color>
+    <color name="SecondTextColor">#8A000000</color>
+
+    <!-- MainActivity -->
+    <color name="BackgroundColor">#FF826E</color><!--#FF826E-->
+    <color name="SliderUpBg">#FA5025</color><!--#FA5025-->
+    <color name="AdsBackgroundColor">#BFFFFFFF</color>
+
+    <!-- RecyclerView View -->
+</resources>

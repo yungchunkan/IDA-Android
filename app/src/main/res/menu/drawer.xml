@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/drawer_gp_not_login"
+        android:checkableBehavior="single">
+        <item android:title="會員中心">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_in"
+                    android:title="登入" />
+                <item
+                    android:id="@+id/nav_register"
+                    android:title="註冊" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/drawer_gp_logged_in"
+        android:checkableBehavior="single">
+        <item android:title="會員中心">
+            <menu>
+                <item
+                    android:id="@+id/nav_follow"
+                    android:title="跟隨" />
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:title="登出" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoOverlay="true"
+        sothree:umanoPanelHeight="?android:attr/actionBarSize"
+        sothree:umanoShadowHeight="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/main_recycler"
+                android:paddingBottom="?android:attr/actionBarSize"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/SliderUpBg">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/more"
+                    android:textSize="32sp"
+                    android:textColor="@android:color/white"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/main_find_rest"
+                    android:layout_width="0dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:text="餐廳搜尋"
+                    android:src="@drawable/search"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:onClick="onMenuClick"/>
+
+                <ImageButton
+                    android:id="@+id/main_nearby"
+                    android:layout_width="0dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:text="附近餐廳"
+                    android:src="@drawable/nearby"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:onClick="onMenuClick"/>
+
+                <ImageButton
+                    android:id="@+id/main_new_discount"
+                    android:layout_width="0dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:text="@string/title_new_discount"
+                    android:src="@drawable/new_discount"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:onClick="onMenuClick"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/main_hot_discount"
+                    android:layout_width="0dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:text="熱門優惠"
+                    android:src="@drawable/hot_discount"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:onClick="onMenuClick"/>
+
+                <ImageButton
+                    android:id="@+id/main_hot_rest"
+                    android:layout_width="0dp"
+                    android:layout_height="106dp"
+                    android:layout_weight="1"
+                    android:text="熱門餐廳"
+                    android:src="@drawable/hot_rest"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:onClick="onMenuClick"/>
+
+                <!--view.SquareImageView
+                    android:id="@+id/main_employment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="人才招聘"
+                    android:src="@drawable/employ"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY" /-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</RelativeLayout>
+

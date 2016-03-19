@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">稻苗食通街</string>
+
+    <!-- title -->
+    <string name="title_activity_main">稻苗食通街</string>
+    <string name="title_activity_init">InitActivity</string>
+    <string name="title_activity_rest_list">RestListActivity</string>
+    <string name="title_activity_discount_list">DiscountListActivity</string>
+    <string name="title_activity_rest_details">RestDetailsActivity</string>
+
+    <string name="tel">電話:&#160;</string>
+    <string name="title_activity_nearby">Map</string>
+
+    <string name="title_new_discount">最新優惠</string>
+    <string name="title_hot_discount">熱門優惠</string>
+
+    <!-- facebook -->
+    <string name="facebook_app_id">1491648011137724</string>
+
+    <!-- main -->
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="more">更多</string>
+
+    <!-- search -->
+    <string name="action_search">搜尋</string>
+    <string name="search_hint">搜尋</string>
+    <string-array name="titles">
+        <item>分類</item>
+        <item>地區</item>
+        <item>菜色</item>
+    </string-array>
+    <string-array name="category">
+        <item>餐廳</item>
+        <item>優惠</item>
+    </string-array>
+
+    <!-- discount list -->
+    <string name="action_settings">Settings</string>
+
+    <!-- employ search -->
+    <string-array name="employ_titles">
+        <item>職位</item>
+        <item>合約性質</item>
+        <item>地區</item>
+        <item>菜色</item>
+    </string-array>
+
+    <string-array name="position">
+        <item>出品</item>
+        <item>服務</item>
+        <item>清潔</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="cont">
+        <item>長工</item>
+        <item>兼職</item>
+        <item>散工</item>
+    </string-array>
+
+    <!-- register -->
+    <string name="hint_name">用戶名稱</string>
+    <string name="hint_email">電郵</string>
+    <string name="hint_password">密碼</string>
+    <string name="hint_register">註冊</string>
+    <string name="err_msg_username">請輸入正確用戶名稱</string>
+    <string name="err_msg_email">請輸入正確電郵</string>
+    <string name="err_msg_password">請輸入正確密碼</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- follow -->
+    <string name="rest">餐廳</string>
+    <string name="discount">優惠</string>
+
+</resources>
